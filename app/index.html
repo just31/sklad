@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+  <title></title>
+  <meta name="description" content="">
+  <meta content='width=1000' name='viewport'>
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body ng-app="calendarApp">
+<!--[if lte IE 8]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<main class="calendar-main">
+
+  <div class="calendar__header">
+    <div class="calendar__inner calendar__inner__head">
+
+      <div class="calendar__buttons-head">
+        <button class="calendar__button calendar__button_first">
+          Добавить
+        </button>
+        <button class="calendar__button">
+          Обновить
+        </button>
+      </div>
+
+      <div class="calendar__search-head">
+        <img class="calendar__search-pict" alt="Test task spec sklad" title="Test task spec sklad" src="images/magnifier.jpg" >
+        <input class="calendar__search-input"
+               ng-model="search" type="search"
+               onfocus="this.placeholder = ''"
+               onblur="this.placeholder = 'Событие, дата или участник'" placeholder="Событие, дата или участник"
+               id="search" name="search" list="character">
+        <datalist id="character">
+          <option value="Витя Костин"></option>
+          <option value="Петр Михайлов"></option>
+          <option value="Дима Молодцов"></option>
+        </datalist>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="calendar__content">
+    <div class="calendar__inner">
+      <div ng-view=""></div>
+    </div>
+  </div>
+
+</main>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<script>
+  !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+      (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+    r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+  }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-XXXXX-X');
+  ga('send', 'pageview');
+</script>
+
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-touch/angular-touch.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>
