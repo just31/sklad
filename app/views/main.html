@@ -1,13 +1,13 @@
 <div class="calendar__choice">
 
   <div class="calendar__change">
-    <button class="calendar__left-arrow"></button>
+    <button class="calendar__left-arrow" ng-click="vm.prev();"></button>
     <div class="calendar__month">
-      Март 2019
+      {{vm.dateToday}}
     </div>
-    <button class="calendar__right-arrow"></button>
+    <button class="calendar__right-arrow" ng-click="vm.next();"></button>
   </div>
-  <button class="calendar__choiceButton" ng-click="vm.today();">Сегодня</button>
+  <button class="calendar__choiceButton" ng-click="vm.getToday();">Сегодня</button>
 
 </div>
 

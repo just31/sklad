@@ -1,317 +1,283 @@
 [
   {
+    "dateToday": "Май 2019",
     "id": 1,
-    "day": "Понедельник, 25",
+    "day": "Понедельник, 6",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "25"
+    "date": "05-6"
   },
   {
     "id": 2,
-    "day": "Вторник, 26",
+    "day": "Вторник 7",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "26"
+    "date": "05-7"
   },
   {
     "id": 3,
-    "day": "Среда, 27",
+    "day": "Среда, 8",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "27"
+    "date": "05-8"
   },
   {
     "id": 4,
-    "day": "Четверг, 28",
-    "title": "",
-    "description": "",
-    "today": "false",
-    "active": "false",
-    "date": "28"
+    "day": "Четверг, 9",
+    "title": "День Победы!",
+    "description": "Иван Спиридонов",
+    "active": "true",
+    "date": "05-9"
   },
   {
     "id": 5,
-    "day": "Пятница, 1",
+    "day": "Пятница, 10",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "1"
+    "date": "05-10"
   },
   {
     "id": 6,
-    "day": "Суббота, 2",
+    "day": "Суббота, 11",
     "title": "",
     "description": "",
-    "today": "true",
     "active": "false",
-    "date": "2"
+    "date": "05-11"
   },
   {
     "id": 7,
-    "day": "Воскресенье, 3",
+    "day": "Воскресенье, 12",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "3"
+    "date": "05-12"
   },
   {
     "id": 8,
-    "day": "4",
-    "title": "",
-    "description": "",
-    "today": "false",
-    "active": "false",
-    "date": "4"
-  },
-  {
-    "id": 9,
-    "day": "5",
-    "title": "",
-    "description": "",
-    "today": "false",
-    "active": "false",
-    "date": "5"
-  },
-  {
-    "id": 10,
-    "day": "6",
-    "title": "",
-    "description": "",
-    "today": "false",
-    "active": "false",
-    "date": "6"
-  },
-  {
-    "id": 11,
-    "day": "7",
-    "title": "",
-    "description": "",
-    "today": "false",
-    "active": "false",
-    "date": "7"
-  },
-  {
-    "id": 12,
-    "day": "8",
-    "title": "",
-    "description": "",
-    "today": "false",
-    "active": "false",
-    "date": "8"
-  },
-  {
-    "id": 13,
-    "day": "9",
-    "title": "Напиться",
-    "description": "Витя Костин, Петр Михайлов",
-    "today": "false",
-    "active": "true",
-    "date": "9"
-  },
-  {
-    "id": 14,
-    "day": "10",
-    "title": "",
-    "description": "",
-    "today": "false",
-    "active": "false",
-    "date": "10"
-  },
-  {
-    "id": 15,
-    "day": "11",
-    "title": "",
-    "description": "",
-    "today": "false",
-    "active": "false",
-    "date": "11"
-  },
-  {
-    "id": 16,
-    "day": "12",
-    "title": "",
-    "description": "",
-    "today": "false",
-    "active": "false",
-    "date": "12"
-  },
-  {
-    "id": 17,
     "day": "13",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "13"
+    "date": "05-13"
   },
   {
-    "id": 18,
+    "id": 9,
     "day": "14",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "14"
+    "date": "05-14"
   },
   {
-    "id": 19,
+    "id": 10,
     "day": "15",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "15"
+    "date": "05-15"
   },
   {
-    "id": 20,
+    "id": 11,
     "day": "16",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "16"
+    "date": "05-16"
   },
   {
-    "id": 21,
+    "id": 12,
     "day": "17",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "17"
+    "date": "05-17"
   },
   {
-    "id": 22,
+    "id": 13,
     "day": "18",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "18"
+    "date": "05-18"
   },
   {
-    "id": 23,
+    "id": 14,
     "day": "19",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "19"
+    "date": "05-19"
   },
   {
-    "id": 24,
+    "id": 15,
     "day": "20",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "20"
+    "date": "05-20"
   },
   {
-    "id": 25,
+    "id": 16,
     "day": "21",
-    "title": "ДР!",
-    "description": "Дима Молодцов",
-    "today": "false",
-    "active": "true",
-    "date": "21"
+    "title": "",
+    "description": "",
+    "active": "false",
+    "date": "05-21"
   },
   {
-    "id": 26,
+    "id": 17,
     "day": "22",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "22"
+    "date": "05-22"
   },
   {
-    "id": 27,
+    "id": 18,
     "day": "23",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "23"
+    "date": "05-23"
   },
   {
-    "id": 28,
+    "id": 19,
     "day": "24",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "24"
+    "date": "05-24"
   },
   {
-    "id": 29,
+    "id": 20,
     "day": "25",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "25"
+    "date": "05-25"
   },
   {
-    "id": 30,
+    "id": 21,
     "day": "26",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "26"
+    "date": "05-26"
   },
   {
-    "id": 31,
+    "id": 22,
     "day": "27",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "27"
+    "date": "05-27"
   },
   {
-    "id": 32,
+    "id": 23,
     "day": "28",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "28"
+    "date": "05-28"
   },
   {
-    "id": 33,
+    "id": 24,
     "day": "29",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "29"
+    "date": "05-29"
   },
   {
-    "id": 34,
+    "id": 25,
     "day": "30",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "30"
+    "date": "05-30"
   },
   {
-    "id": 35,
+    "id": 26,
     "day": "31",
     "title": "",
     "description": "",
-    "today": "false",
     "active": "false",
-    "date": "31"
+    "date": "05-31"
+  },
+  {
+    "id": 27,
+    "day": "1",
+    "title": "",
+    "description": "",
+    "active": "false",
+    "date": "06-1"
+  },
+  {
+    "id": 28,
+    "day": "2",
+    "title": "",
+    "description": "",
+    "active": "false",
+    "date": "06-2"
+  },
+  {
+    "id": 29,
+    "day": "3",
+    "title": "",
+    "description": "",
+    "active": "false",
+    "date": "06-3"
+  },
+  {
+    "id": 30,
+    "day": "4",
+    "title": "",
+    "description": "",
+    "active": "false",
+    "date": "06-4"
+  },
+  {
+    "id": 31,
+    "day": "5",
+    "title": "",
+    "description": "",
+    "active": "false",
+    "date": "06-5"
+  },
+  {
+    "id": 32,
+    "day": "6",
+    "title": "",
+    "description": "",
+    "active": "false",
+    "date": "06-6"
+  },
+  {
+    "id": 33,
+    "day": "7",
+    "title": "",
+    "description": "",
+    "active": "false",
+    "date": "06-7"
+  },
+  {
+    "id": 34,
+    "day": "8",
+    "title": "",
+    "description": "",
+    "active": "false",
+    "date": "06-8"
+  },
+  {
+    "id": 35,
+    "day": "9",
+    "title": "",
+    "description": "",
+    "active": "false",
+    "date": "06-9"
   }
 ]

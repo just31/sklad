@@ -164,7 +164,7 @@ input[type="search"]::placeholder { color: #cccccc; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 205px;
+  width: 223px;
 }
 
 .calendar__change {
