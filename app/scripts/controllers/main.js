@@ -57,5 +57,48 @@ angular.module('calendarApp')
         // Дополнительное свойство, можно использовать для заголовка результатов поиска.
         vm.resultSearch = 'Результаты поиска';
 
+        // При нажатии на какую либо из ячеек календаря, будем менять ее цвет и содержимое.
+        vm.onChanged = function (event, id) {
+
+            let list,
+                changeDesc = (id) => {
+
+                    // Находим в массиве объектов, соответствие по полученному id, при клике по ячейке календаря. Обновляем в найденном объекте данные.
+                    let item = list.find(x => x.id === id);
+                    item.active = "true";
+                    item.title = "Новая запись";
+                    item.description = "Произойдет что-то интересное.";
+
+                    /* Здесь необходимо указать правильный адрес на api-сервис на сервере, который принимает 'POST'-запрос
+                    и записывает обновленные данные массива list, в list' + _counter + '.json файл.
+                     $http({
+                     method: 'POST',
+                     url: 'api/listWrite',
+                     data: list,
+                     headers : {'Content-Type':'application/x-www-form-urlencoded; charset=UTF-8'}
+                     }).then(function (data) {
+                     console.log(data.data);
+                     }, function (error) {
+                     console.log(error)
+                     });*/
+
+
+                };
+
+            // Получаем массив объектов с первоначальными данными для рендиринга календаря. Передаем его в функцию, обновляющую данные по полученному id.
+            $http({
+                method: 'GET',
+                url: 'list/list' + _counter + '.json'
+            }).then(function (data) {
+
+                list = data.data;
+
+                changeDesc(id.id);
+
+            }, function (error) {
+            });
+
+        }
+
 
     }]);

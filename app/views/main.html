@@ -14,7 +14,7 @@
 
 <div class="calendar__main">
 
-  <div class="calendar__item" ng-class="{calendar__item_today: item.date === vm.today, calendar__item_active: item.active == 'true'}" ng-repeat="item in vm.calendar | filter:search">
+  <div ng-click="vm.onChanged($event, {id:item.id})" class="calendar__item" ng-class="{calendar__item_today: item.date === vm.today, calendar__item_active: item.active == 'true'}" ng-repeat="item in vm.calendar | filter:search">
     <p class="calendar__item-day" ng-class="{calendar__item_day_active: item.date === vm.today}">{{item.day}}</p>
     <h3 class="calendar__item-heading">{{item.title}}</h3>
     <p class="calendar__item-description">{{item.description}}</p>

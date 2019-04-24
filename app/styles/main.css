@@ -242,6 +242,7 @@ input[type="search"]::placeholder { color: #cccccc; }
   border-width: 1px;
   box-sizing: content-box;
   border-color: #ebebeb;
+  cursor: pointer;
 }
 
 .calendar__item_today {
