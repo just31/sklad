@@ -233,10 +233,10 @@ input[type="search"]::placeholder { color: #cccccc; }
 }
 
 .calendar__item {
-  /*flex-basis: 12%;*/
+  flex-basis: 12.75%;
   padding: 7px;
   margin: -1px 0 0 -1px;
-  width: 125px;
+  /*width: 125px;*/
   height: 117px;
   border-style: solid;
   border-width: 1px;
