@@ -6,7 +6,7 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "05-6"
+    "date": "05-06"
   },
   {
     "id": 2,
@@ -14,7 +14,7 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "05-7"
+    "date": "05-07"
   },
   {
     "id": 3,
@@ -22,7 +22,7 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "05-8"
+    "date": "05-08"
   },
   {
     "id": 4,
@@ -30,7 +30,7 @@
     "title": "День Победы!",
     "description": "Иван Спиридонов",
     "active": "true",
-    "date": "05-9"
+    "date": "05-09"
   },
   {
     "id": 5,
@@ -214,7 +214,7 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "06-1"
+    "date": "06-01"
   },
   {
     "id": 28,
@@ -222,7 +222,7 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "06-2"
+    "date": "06-02"
   },
   {
     "id": 29,
@@ -230,7 +230,7 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "06-3"
+    "date": "06-03"
   },
   {
     "id": 30,
@@ -238,7 +238,7 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "06-4"
+    "date": "06-04"
   },
   {
     "id": 31,
@@ -246,7 +246,7 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "06-5"
+    "date": "06-05"
   },
   {
     "id": 32,
@@ -254,7 +254,7 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "06-6"
+    "date": "06-06"
   },
   {
     "id": 33,
@@ -262,7 +262,7 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "06-7"
+    "date": "06-07"
   },
   {
     "id": 34,
@@ -270,7 +270,7 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "06-8"
+    "date": "06-08"
   },
   {
     "id": 35,
@@ -278,6 +278,6 @@
     "title": "",
     "description": "",
     "active": "false",
-    "date": "06-9"
+    "date": "06-09"
   }
 ]
