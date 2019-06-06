@@ -9,4 +9,4 @@ npm install --sev-dev
 
 grunt server
 
-Открыть в браузере можно по адресу - https://just31.github.io/stork.
+Открыть в браузере можно по адресу - https://just31.github.io/stork/.
