@@ -37,16 +37,16 @@ angular.module('calendarApp')
             return vm.today = $filter('date')(new Date(), 'MM-dd');
         }
 
-        // Функция переключающая календарь на 1 месяц вперед. Тестово сделано только до мая.
+        // Функция переключающая календарь на 1 месяц вперед. Тестово сделано только до июля.
         vm.next = () => {
-            _counter < 5 ? _counter++ : _counter = 5;
+            _counter < 7 ? _counter++ : _counter = 7;
             date();
             return _counter;
         }
 
-        // Функция переключающая календарь на 1 месяц назад. Тестово сделано только до марта.
+        // Функция переключающая календарь на 1 месяц назад. Тестово сделано только до мая.
         vm.prev = () => {
-            _counter > 3 ? _counter-- : _counter = 3;
+            _counter > 5 ? _counter-- : _counter = 5;
             date();
             return _counter;
         }
